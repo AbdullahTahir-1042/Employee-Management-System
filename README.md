@@ -34,7 +34,7 @@ This project is a simple console-based Employee Management System written in C++
 
    * Project Code
 
-* Completion Status (Completed/Not Completed)
+   * Completion Status (Completed/Not Completed)
 
 * Employees are stored in a doubly linked list, sorted by their ID.
 
@@ -59,3 +59,19 @@ Example compile command:
      g++ main.cpp -o EmployeeManagement
      ./EmployeeManagement
 
+# Sample
+
+![image](https://github.com/user-attachments/assets/65fbbe07-d9ff-496d-b946-638838215058)
+
+![image](https://github.com/user-attachments/assets/4d26b34d-3821-4e22-b9a8-fef2d5a3d04e)
+
+
+# Notes
+
+* Employees are uniquely identified by their ID.
+
+* Adding a project with an already existing project code is not allowed.
+
+* The system validates user inputs, especially for project completion status (accepts only 0 or 1).
+
+* Order of displaying employees can be ascending or descending based on user preference.
